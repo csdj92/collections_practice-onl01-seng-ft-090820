@@ -38,11 +38,12 @@ def sum_array(array)
  array.inject(:+)
 end
 
-def add_s(array)
-  array.collect do |word|
-    if array[1] == word
-      word
-    else
-      word + "s"
-    end
+def add_s_collect(array)
+      array.each_with_index.collect do |word,index|
+        if index != 1 
+          word = word + "s"
+        else
+          word = word
+        end
   end
+end
