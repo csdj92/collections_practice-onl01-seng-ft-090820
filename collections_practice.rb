@@ -34,5 +34,9 @@ def find_a(array)
     word[0] == "a"
 end
 
+def sum_array(array)
+
+end
+
 def add_s
 end
