@@ -1,5 +1,7 @@
 
-def sort_array_asc
+def sort_array_asc(array)
+  new_array=[]
+  
 end
 
 def sort_array_desc
