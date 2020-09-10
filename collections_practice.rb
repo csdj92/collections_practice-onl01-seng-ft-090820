@@ -47,3 +47,4 @@ def add_s_collect(array)
         end
   end
 end
+end
